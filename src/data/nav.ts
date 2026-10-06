@@ -126,10 +126,41 @@ export const NAV_GROUPS: NavGroup[] = [
       },
     ],
   },
+  {
+    id: 'interactive',
+    label: 'Practice',
+    to: '/quiz',
+    children: [
+      {
+        to: '/quiz',
+        label: 'Education Quiz',
+        num: '12',
+        desc: '12 questions with explanations and scoring',
+      },
+      {
+        to: '/simulator',
+        label: 'Management Simulator',
+        num: '13',
+        desc: 'Run a repository for eight days',
+      },
+      {
+        to: '/model3d',
+        label: '3D Waste Model',
+        num: '14',
+        desc: 'Interactive deep repository cutaway',
+      },
+      {
+        to: '/dashboard',
+        label: 'Learning Dashboard',
+        num: '15',
+        desc: 'Points, badges and class standings',
+      },
+    ],
+  },
 ]
 
 export const STANDALONE_LINKS: NavChild[] = [
-  { to: '/safety', label: 'Safety & Sources', num: '12–13', desc: 'Disclaimer and references' },
+  { to: '/safety', label: 'Safety & Sources', num: '16–17', desc: 'Disclaimer and references' },
 ]
 
 export const FOOTER_LINKS: NavChild[] = [
